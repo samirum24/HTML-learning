@@ -1,0 +1,139 @@
+<!doctype html>
+
+<html lang="en">
+<head>\
+
+    <link rel="icon" href="img/download-3.ico"> <!--website er chipar chotto logo-->
+
+      <title>HTML is fun</title>
+
+      <style>
+    p{
+      font-size: 10px; [internal text formating]
+    }
+      </style>
+    <link rel="stylesheet" href="style.css"> <!-- extarnal text formating(but not working still now)-->
+
+    <script>
+        alert('Is this website is helpful for you?');  [alert texting]
+    </script>
+    
+    
+</head>
+ 
+<body>
+<h3><a href="about.html">About</a></h3> <!--about link-->
+
+  <a href="https://www.facebook.com/ssamir.hossain/">SAMIR HOSSAIN</a> <!--profile linking-->
+
+  <a href="https://www.facebook.com/ssamir.hossain/" target="_top"><img src="samir.jpg.jpg" width="400"></a> <!-- image linking-->
+
+  <a href="mailto:info@yourdomain.com" title="Email us"> samirhossain18149@gmail.com</a> <!--mail address linking-->
+
+   <p style="color:tomato">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis consequuntur repudiandae nesciunt adipisci quae itaque ducimus harum placeat? Magni minus in quisquam accusantium magnam. Ut neque sed sint ex velit.</p> <!--paragraph color styling-->
+
+
+    <blockquote>
+    If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. <br> <!--qoute text-->
+      -<cite>Oprah Winfrey</cite> <!--italic text-->
+ </blockquote>
+
+
+   
+ <q>
+    You must be the change you wish to see in the world.</q> <br>
+    -Mahatma Gandhi
+
+    <p><abbr title="Hyper Text Markup Language">HTML </abbr>is not a programming Language</p>
+
+   <address>
+    Banani,
+    Dhaka,
+    Bangladesh.
+   </address> 
+
+   <bdo dir="rtl">HTML</bdo> <!-- ulta kore lekha-->
+   
+  <script>
+    alert('Is this website is helpful for you????????'); [ekhane elert text dile fast run hobe website]
+   </script>
+
+   <img src="img/samir.jpg.jpg" width="200px" alt="SamirHossainPHOTO"> <!--IMAGE SHOWING-->
+   <img src="img/855.gif" alt="why me"> <!--gif image-->
+
+
+  
+
+   <script src="newFile.js"></script> <!--extarnal alert text-->
+
+
+   <table>
+     <tr>
+        <th>Serial</th>
+        <th>Language</th>
+        <th>judgement</th>
+    </tr>
+
+    <tr>
+      <td>01</td>
+      <td>HTML</td>
+      <td>yes</td>
+    </tr>
+
+    <tr>
+      <td>02</td>
+      <td>CSS</td>
+      <td>yes</td>
+  </tr>
+   </table>
+
+
+ <!-- Unorder Listing
+  Disc
+  Circle
+  Square
+  None
+ -->
+   <ul style="list-style-type:circle">
+      <li>HTML</li>
+      <li>CSS</li>                 
+      <li>javascript</li>
+   </ul>
+
+   <!--Order Listing
+    Type:1
+    Type:A
+    Type:a
+    Type:I
+    Type:i
+  -->
+   <ol type="I">
+    <li>HTML</li>
+    <li>CSS</li>                   
+    <li>javascript</li>
+   </ol>
+
+   <!--Halka kore CSS-->
+   <ul>
+    <li><a href="">Home</a> </li>
+    <li><a href="">About</a> </li>
+    <li><a href="">Service</a> </li>
+    <li><a href="">Contact</a> </li>
+   </ul>
+
+   <h1>Hello</h1>
+   <h1>Hi</h1>
+<!--
+  Good Practice
+  <h1><a href="$">Home</a></h1>
+-->
+<!--Bad Practice
+<a href="$"<h1>Home</h1></a>   
+-->
+
+<strong>Hello</strong>
+<strong>Hi</strong>
+<!--Useful Link
+https://www.w3schools.com/-->
+</body>
+</html>
